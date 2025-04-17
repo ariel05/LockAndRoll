@@ -1,4 +1,4 @@
-package ar.com.lockandroll.thread.lockSynchronizedV2;
+package ar.com.lockandroll.thread.lockSynchronized2;
 
 public class Visitante implements Runnable{
 

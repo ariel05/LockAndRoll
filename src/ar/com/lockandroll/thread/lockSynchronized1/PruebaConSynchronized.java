@@ -1,4 +1,4 @@
-package ar.com.lockandroll.thread.lockSynchronized;
+package ar.com.lockandroll.thread.lockSynchronized1;
 
 public class PruebaConSynchronized {
 
