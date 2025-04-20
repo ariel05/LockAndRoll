@@ -13,6 +13,7 @@ public class PruebaExecutors {
 		service.submit(new TareaFalsa(1, TimeUnit.SECONDS, "Tercer Tarea"));
 		service.submit(new TareaFalsa(1, TimeUnit.SECONDS, "Cuarta Tarea"));
 		System.out.println("Tarea/s encolada/s...");
+		System.out.println("Hilo: " + Thread.currentThread().getId());
 		service.shutdown();
 		service.awaitTermination(1, TimeUnit.DAYS);
 		

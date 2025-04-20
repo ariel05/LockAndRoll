@@ -19,6 +19,7 @@ public class TareaFalsa implements Runnable{
 	
 	@Override
 	public void run() {
+		System.out.println("Hilo: " + Thread.currentThread().getId());
 		System.out.println(id + ": Comenzando");
 		
 		try {
